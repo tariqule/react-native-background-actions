@@ -16,7 +16,12 @@ public class BackgroundActionsPackage implements ReactPackage {
     @Override
     public @NonNull List<NativeModule> createNativeModules(@NonNull ReactApplicationContext reactContext) {
         //noinspection ArraysAsListWithZeroOrOneArgument
-        return Arrays.<NativeModule>asList(new BackgroundActionsModule(reactContext));
+        List<NativeModule> modules = new ArrayList<>();
+
+		modules.add(new RNPassKitModule(reactContext));
+        modules.add(new BackgroundActionsModule(reactContext))  
+
+        return modules;
     }
 
     @Override

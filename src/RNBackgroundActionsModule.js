@@ -1,7 +1,7 @@
 import { NativeEventEmitter, NativeModules } from 'react-native';
 
-const { RNBackgroundActions } = NativeModules;
+const { RNBackgroundActions, RNPassKit } = NativeModules;
 
 const nativeEventEmitter = new NativeEventEmitter(RNBackgroundActions);
 
-export { RNBackgroundActions, nativeEventEmitter };
+export { RNBackgroundActions, nativeEventEmitter, RNPassKit };
