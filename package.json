@@ -1,6 +1,6 @@
 {
-  "name": "react-native-background-actions",
-  "version": "2.6.1",
+  "name": "react-native-wallet-pass-kit",
+  "version": "2.6.2",
   "description": "React Native background service library for running background tasks forever in Android & iOS",
   "keywords": [
     "react-native",
@@ -35,15 +35,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rapsssito/react-native-background-actions.git"
+    "url": "https://github.com/tariqule/react-native-background-actions"
   },
   "funding": {
     "type": "individual",
     "url": "https://github.com/sponsors/Rapsssito"
   },
   "author": {
-    "name": "Rapsssito",
-    "email": "contact@rodrigomartin.dev"
+    "name": "tariqule",
+    "email": "tariqule@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",

@@ -1,5 +1,6 @@
 package com.asterinet.react.bgactions;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -19,7 +20,7 @@ public class BackgroundActionsPackage implements ReactPackage {
         List<NativeModule> modules = new ArrayList<>();
 
 		modules.add(new RNPassKitModule(reactContext));
-        modules.add(new BackgroundActionsModule(reactContext))  
+        modules.add(new BackgroundActionsModule(reactContext));
 
         return modules;
     }
